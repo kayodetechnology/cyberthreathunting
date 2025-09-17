@@ -41,7 +41,9 @@ T-Pot functions as a honeytrap by running many simulated, intentionally vulnerab
 
 ## Core components of the T-Pot framework
 * Multi-honeypot orchestration: T-Pot uses Docker to deploy and manage multiple honeypot instances that mimic common services—SSH, web servers, databases, and IoT endpoints—so it can capture a wide range of attacker behavior.
-![T-Zone](https://pouch.jumpshare.com/preview/liDFBzoIIQQKsqfWT7HcAkoNkBea7-KJRNT4q0OZ2uAwh_9XwZYQVttHlp3-Z_Ocwp3HkzutWm7Kd1Yi3GPWFPa0yS3Ap8JZjujoWnBZZXm5-x6dFF29sRInhC8tyPGiwbrlzDNy-M3eP2kqyOd9xW6yjbN-I2pg_cnoHs_AmgI.mp4)
+![T-Zone] <video id="player" preload="auto" class="js-player" poster="https://pouch.jumpshare.com/preview/V9AdDTQYu0hR0_aLU8hh4viYVu6brpnweRWYaIiKQk3BeapKlPPBEV-yy5YjoniW_-KnSiBiYrsZJEFdt1mpIc7aZHIuBrEPTqf8b3G_iNs" src="https://pouch.jumpshare.com/preview/liDFBzoIIQQKsqfWT7HcAkoNkBea7-KJRNT4q0OZ2uAwh_9XwZYQVttHlp3-Z_Ocwp3HkzutWm7Kd1Yi3GPWFPa0yS3Ap8JZjujoWnBZZXm5-x6dFF29sRInhC8tyPGiwbrlzDNy-M3eP2kqyOd9xW6yjbN-I2pg_cnoHs_AmgI.mp4">
+								<track id="captions-track" src="" kind="captions" srclang="en" label="English" default="">
+							</video>
   * Cowrie: Emulates SSH and Telnet servers.
   * Dionaea: Detects malware and imitates protocols such as FTP and HTTP.
   * Wordpot: Simulates a vulnerable WordPress installation.
