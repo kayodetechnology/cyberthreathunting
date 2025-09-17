@@ -37,6 +37,7 @@ Threat intelligence, often referred to as cyberthreat intelligence, is actionabl
 
 ## T-Pot - The All In One Multi Honeypot Platform
 T-Pot functions as a honeytrap by running many simulated, intentionally vulnerable services to lure and engage attackers. Every interaction with these decoy systems is recorded, producing valuable threat intelligence without putting real production networks at risk.
+![T-Pot](https://i.imgur.com/NqNZPjQ.png)
 
 ## Core components of the T-Pot framework
 * Multi-honeypot orchestration: T-Pot uses Docker to deploy and manage multiple honeypot instances that mimic common services—SSH, web servers, databases, and IoT endpoints—so it can capture a wide range of attacker behavior.
