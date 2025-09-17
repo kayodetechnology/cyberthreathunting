@@ -44,6 +44,7 @@ T-Pot functions as a honeytrap by running many simulated, intentionally vulnerab
   * Cowrie: Emulates SSH and Telnet servers.
   * Dionaea: Detects malware and imitates protocols such as FTP and HTTP.
   * Wordpot: Simulates a vulnerable WordPress installation.
+ ![T-Zone](https://i.imgur.com/Z7o2Czc.png)
 
 * Elastic Stack: Elasticsearch, Logstash, and Kibana are used to ingest, process, and visualize the interaction data gathered by the honeypots.
 * Web dashboard: A browser-based interface provides a live attack map, Kibana visualizations, and other analysis tools for monitoring and investigation.
