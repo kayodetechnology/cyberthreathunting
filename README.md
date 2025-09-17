@@ -34,3 +34,26 @@ By applying big data techniques alongside machine learning and artificial intell
 
 ## Threat hunting / Threat intelligence
 Threat intelligence, often referred to as cyberthreat intelligence, is actionable information that helps organizations anticipate, prevent, and respond to cyberattacks. It provides visibility into both the specific threats targeting an organization and the wider cybersecurity landscape. Threat hunters rely on this intelligence to carry out in-depth, organization wide investigations for potential intrusions. In essence, threat intelligence lays the groundwork, while threat hunting builds on it transforming insights into concrete actions that neutralize current threats and strengthen defenses against future ones.
+
+## T-Pot - The All In One Multi Honeypot Platform
+T-Pot functions as a honeytrap by running many simulated, intentionally vulnerable services to lure and engage attackers. Every interaction with these decoy systems is recorded, producing valuable threat intelligence without putting real production networks at risk.
+
+## Core components of the T-Pot framework
+** Multi-honeypot orchestration: T-Pot uses Docker to deploy and manage multiple honeypot instances that mimic common services—SSH, web servers, databases, and IoT endpoints—so it can capture a wide range of attacker behavior.
+  * Cowrie: Emulates SSH and Telnet servers.
+  * Dionaea: Detects malware and imitates protocols such as FTP and HTTP.
+  * Wordpot: Simulates a vulnerable WordPress installation.
+
+** Elastic Stack: Elasticsearch, Logstash, and Kibana are used to ingest, process, and visualize the interaction data gathered by the honeypots.
+** Web dashboard: A browser-based interface provides a live attack map, Kibana visualizations, and other analysis tools for monitoring and investigation.
+** Network monitoring integration: Tools like Suricata are incorporated to broaden network-level detection and enrich the collected threat data.
+
+## Key benefits and typical uses
+
+** Threat intelligence collection: T-Pot captures real-time data on attacker techniques, deployed malware, and malicious behavior.
+** Early warning: Activity observed in the honeypots can act as an early indicator of threats before they touch production systems.
+** Deception and distraction: The decoy services help divert attackers away from real assets, buying time for defenders to respond.
+** Training and research: The environment provides a controlled, hands-on platform for analysts to study attacks and develop countermeasures.
+** Simplified setup and management: Containerization via Docker makes deploying and operating a diverse honeypot ecosystem straightforward.
+
+
