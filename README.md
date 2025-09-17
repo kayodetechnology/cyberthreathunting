@@ -16,3 +16,21 @@ More reactive in nature, unstructured hunts usually begin when an indicator of c
 
 ## Situational or Entity Driven Hunting
 Situational hunts arise from an organization’s unique context often based on internal risk assessments, or analyses of vulnerabilities and emerging trends in the IT environment. Entity driven hunts, on the other hand, concentrate on high value assets or critical systems, with hunters seeking out threats that specifically endanger these resources and looking for any evidence of compromise.
+
+## Threat hunting tools
+To support their investigations, security teams rely on a range of specialized tools. Some of the most widely used include:
+
+## Security Information and Event Management (SIEM)
+SIEM platforms help organizations detect and address threats before they can disrupt operations. They improve early attack detection while also reducing the number of false positives that hunters need to review.
+
+## Endpoint Detection and Response (EDR)
+EDR solutions leverage real time analytics and AI-driven automation to safeguard endpoints, users, and IT assets against advanced threats that bypass traditional endpoint defenses.
+
+## Managed Detection and Response (MDR)
+MDR is a managed security service that continuously monitors, detects, and responds to threats. By combining advanced technology with expert oversight, MDR strengthens proactive threat hunting, enables rapid incident response, and speeds up remediation efforts.
+
+## Security Analytics
+By applying big data techniques alongside machine learning and artificial intelligence, security analytics provide deeper visibility into security data. These insights accelerate threat hunting efforts by highlighting patterns and anomalies that may otherwise go unnoticed.
+
+## Threat hunting / Threat intelligence
+Threat intelligence, often referred to as cyberthreat intelligence, is actionable information that helps organizations anticipate, prevent, and respond to cyberattacks. It provides visibility into both the specific threats targeting an organization and the wider cybersecurity landscape. Threat hunters rely on this intelligence to carry out in-depth, organization wide investigations for potential intrusions. In essence, threat intelligence lays the groundwork, while threat hunting builds on it transforming insights into concrete actions that neutralize current threats and strengthen defenses against future ones.
