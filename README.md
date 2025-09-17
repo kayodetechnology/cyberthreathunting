@@ -51,6 +51,7 @@ T-Pot functions as a honeytrap by running many simulated, intentionally vulnerab
 * Elastic Stack: Elasticsearch, Logstash, and Kibana are used to ingest, process, and visualize the interaction data gathered by the honeypots.
   ![T-Zone](https://i.imgur.com/QoVxIbG.png)
 * Web dashboard: A browser-based interface provides a live attack map, Kibana visualizations, and other analysis tools for monitoring and investigation.
+  
     ![T-Zone](https://i.imgur.com/zmnjWrM.gif)
 * Network monitoring integration: Tools like Suricata are incorporated to broaden network-level detection and enrich the collected threat data.
 
