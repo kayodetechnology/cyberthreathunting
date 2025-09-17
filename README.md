@@ -1,14 +1,4 @@
 # cyberthreathunting
 Cyber Threat Hunting
 # What is threat hunting?
-  ## Threat hunting, also called cyberthreat hunting, is a proactive method of uncovering previously unknown or ongoing threats within an organization’s network.
-
-It plays a critical role in strengthening defenses against ransomware, insider threats, and other cyberattacks that might otherwise remain undetected.
-
-Although automated security tools and security operations center (SOC) analysts successfully stop most attacks before they cause significant harm, advanced threats can sometimes evade these protections.
-
-Once an attacker gains access, they may remain hidden for weeks or even months. IBM’s Cost of a Data Breach Report reveals that it takes an average of 181 days to detect a breach—time in which adversaries can steal data, harvest credentials, and expand their access.
-
-The financial impact is severe: the average data breach costs organizations about USD 4.88 million, and the longer it takes to detect and contain an incident, the greater the losses.
-
-By actively hunting for hidden threats, security teams can detect breaches earlier, respond faster, and minimize the potential damage.
+   Threat hunting, also called cyberthreat hunting, is a proactive method of uncovering previously unknown or ongoing threats within an organization’s network. It plays a critical role in strengthening defenses against ransomware, insider threats, and other cyberattacks that might otherwise remain undetected. Although automated security tools and security operations center (SOC) analysts successfully stop most attacks before they cause significant harm, advanced threats can sometimes evade these protections. Once an attacker gains access, they may remain hidden for weeks or even months. IBM’s Cost of a Data Breach Report reveals that it takes an average of 181 days to detect a breach—time in which adversaries can steal data, harvest credentials, and expand their access. The financial impact is severe: the average data breach costs organizations about USD 4.88 million, and the longer it takes to detect and contain an incident, the greater the losses. By actively hunting for hidden threats, security teams can detect breaches earlier, respond faster, and minimize the potential damage.
