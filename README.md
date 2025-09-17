@@ -41,7 +41,7 @@ T-Pot functions as a honeytrap by running many simulated, intentionally vulnerab
 
 ## Core components of the T-Pot framework
 * Multi-honeypot orchestration: T-Pot uses Docker to deploy and manage multiple honeypot instances that mimic common services—SSH, web servers, databases, and IoT endpoints—so it can capture a wide range of attacker behavior.
-
+ ![T-Zone](https://i.imgur.com/g1TPXD2.png)
 
   * Cowrie: Emulates SSH and Telnet servers.
   * Dionaea: Detects malware and imitates protocols such as FTP and HTTP.
